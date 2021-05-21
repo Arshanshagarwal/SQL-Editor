@@ -1,0 +1,30 @@
+.background-changing-div {
+  background: url("../../assests/background.svg") no-repeat;
+  height: 40vh;
+}
+
+.content1 {
+  height: 80vh;
+}
+
+.help-div {
+  height: 50vh;
+  width: 40%;
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  margin-top: 20vh;
+  text-align: center;
+  font-size: 30px;
+}
+
+.point {
+  margin-top: 3vh;
+}
+
+.top {
+  margin-top: 5vh;
+}
