@@ -3,20 +3,28 @@
   height: 40vh;
 }
 
+.page-title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+}
+
 .content1 {
   height: 80vh;
 }
 
 .help-div {
-  height: 50vh;
-  width: 40%;
-  margin-top: 20vh;
+  display: flex;
+  height: 46vh;
+  /* width: ; */
+  margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
 }
 
 .title {
-  margin-top: 20vh;
+  /* margin-top: 20vh; */
   text-align: center;
   font-size: 30px;
 }
@@ -27,4 +35,15 @@
 
 .top {
   margin-top: 5vh;
+}
+
+.left-help {
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right-help {
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
 }
