@@ -27,7 +27,7 @@ It provided me with the FCP (first contentful paint) and LCP (largest contentful
 ## 2. Pingdom Website - 
 
 Pingdom website provides with free website performace testing service over different different regions, but pingdom has a issue. It is not consistent and provide varying results.
-To overcome this, I took 8 tests and took their average the final result.
+To overcome this, I took 8 tests and took their average to calculate the final result.
 
 The 8 different page loading times were - ` 176ms 209ms 229ms 396ms 196ms 178ms 204ms 194ms`
 which results in the average of - `222 ms`
