@@ -11,12 +11,12 @@
 }
 
 .content1 {
-  height: 80vh;
+  height: 100vh;
 }
 
 .help-div {
   display: flex;
-  height: 46vh;
+  height: 55vh;
   /* width: ; */
   margin-top: 10vh;
   margin-left: auto;
