@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./content.css";
 // import { isConstructorDeclaration } from "typescript";
 
@@ -7,7 +7,18 @@ function Content() {
   const titleRef = useRef();
 
   const updateOutput = () => {
-    setTitle(titleRef.current.value);
+    // setTitle(titleRef.current.value);
+    if (titleRef.current.value === "show tables;") {
+      setTitle(
+        "categories, customers, employee_territories, employees, order_details, orders, producs, regions, shippers, suppliers, territories"
+      );
+    } else if (titleRef.current.value === "SELECT * from Shippers;") {
+      setTitle(
+        "shipperID	| companyName	| phone  1	|Speedy Express|	(503) 555-9831|"
+      );
+    } else {
+      setTitle("Syntax error in SQL statement");
+    }
   };
 
   const deleteInput = () => {
@@ -21,6 +32,16 @@ function Content() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.download = "Code.sql";
+    link.href = url;
+    link.click();
+  };
+
+  const saveDataOutput = () => {
+    const fileData = titleRef.current.value;
+    const blob = new Blob([fileData], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.download = "OutputCode.txt";
     link.href = url;
     link.click();
   };
@@ -63,7 +84,7 @@ function Content() {
         <div className="right-title">
           <div className="heading">Ouput</div>
           <button
-            onClick={saveData}
+            onClick={saveDataOutput}
             className="run-button"
             title="Download input"
           >
