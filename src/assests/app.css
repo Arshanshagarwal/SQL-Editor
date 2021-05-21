@@ -9,3 +9,15 @@ body {
 .App {
   background-color: white;
 }
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
