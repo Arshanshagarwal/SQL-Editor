@@ -12,7 +12,7 @@ function Content() {
       );
     } else if (titleRef.current.value === "SELECT * from Shippers;") {
       setTitle(
-        "shipperID| companyName	| phone\n\n1  \t| Speedy Express|	(503) 555-9831\n2   \t| United Package | (503) 555-3199 \n3 \t | Federal Shipping | (503) 555-9931"
+        "shipperID | companyName    | phone\n\n1    \t| Speedy Express   | (503) 555-9831\n2     \t| United Package   | (503) 555-3199 \n3   \t| Federal Shipping | (503) 555-9931"
       );
     } else {
       setTitle("Syntax error in SQL statement");
