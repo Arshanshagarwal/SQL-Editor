@@ -1,24 +1,24 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import "./content.css";
-// import { isConstructorDeclaration } from "typescript";
 
 function Content() {
   const [title, setTitle] = useState("");
   const titleRef = useRef();
 
   const updateOutput = () => {
-    // setTitle(titleRef.current.value);
     if (titleRef.current.value === "show tables;") {
       setTitle(
-        "categories, customers, employee_territories, employees, order_details, orders, producs, regions, shippers, suppliers, territories"
+        `categorie\ncustomers\nemployee_territories\nemployees\norder_details\norders\nproducs\nregions\nshippers\nsuppliers\nterritories`
       );
     } else if (titleRef.current.value === "SELECT * from Shippers;") {
       setTitle(
-        "shipperID	| companyName	| phone  1	|Speedy Express|	(503) 555-9831|"
+        "shipperID| companyName	| phone\n\n1  \t| Speedy Express|	(503) 555-9831\n2   \t| United Package | (503) 555-3199 \n3 \t | Federal Shipping | (503) 555-9931"
       );
     } else {
       setTitle("Syntax error in SQL statement");
     }
+
+    console.log(title);
   };
 
   const deleteInput = () => {
@@ -73,10 +73,13 @@ function Content() {
             <i className="fas fa-circle circle-yellow circle"></i>
             <i className="fas fa-circle circle-green circle"></i>
           </div>
+
           <textarea
             placeholder="Write your SQL command here."
             ref={titleRef}
-            className="left-input-area"
+            id="highlighting"
+            aria-hidden="true"
+            className="left-input-area language-js prism-live"
           ></textarea>
         </div>
       </div>
@@ -91,7 +94,9 @@ function Content() {
             <i className="fas fa-download"></i>
           </button>
         </div>
-        <div className="right-output">{title}</div>
+        <div className="right-output">
+          <code>{title}</code>
+        </div>
       </div>
     </div>
   );

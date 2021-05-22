@@ -5,14 +5,18 @@ function Header() {
   return (
     <>
       <div className="header">
-        <div className="left-text"> A A</div>
+        <div className="left-text">
+          <a className="AA-link link" href="https://github.com/Arshanshagarwal">
+            A A
+          </a>
+        </div>
         <div className="right-text">
           <a
-            className="github-button"
+            className="github-link link"
             title="Github Repo"
             href="https://github.com/Arshanshagarwal/SQL-Editor"
           >
-            <i class="fab fa-github"></i>
+            <i className="fab fa-github"></i>
           </a>
         </div>
       </div>

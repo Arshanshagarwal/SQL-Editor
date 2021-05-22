@@ -1,6 +1,6 @@
 .background-changing-div {
   background: url("../../assests/background.svg") no-repeat;
-  height: 40vh;
+  height: 40vw;
 }
 
 .page-title {
@@ -14,17 +14,26 @@
   height: 100vh;
 }
 
+.left-help {
+  width: 27vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right-help {
+  width: 27vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .help-div {
   display: flex;
   height: 55vh;
-  /* width: ; */
   margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
 }
 
 .title {
-  /* margin-top: 20vh; */
   text-align: center;
   font-size: 30px;
 }
@@ -35,15 +44,4 @@
 
 .top {
   margin-top: 5vh;
-}
-
-.left-help {
-  width: 30vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-.right-help {
-  width: 30vw;
-  margin-left: auto;
-  margin-right: auto;
 }

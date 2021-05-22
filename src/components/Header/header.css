@@ -24,10 +24,11 @@
   text-align: right;
 }
 
-.github-button {
+.link {
   background-color: black;
   color: white;
   border: none;
+  text-decoration: none;
   font-size: 40px;
   margin-left: 10px;
 }
