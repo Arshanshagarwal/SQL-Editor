@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a47f3c5b07bfa9260ebc79ff4587fb83",
+    "revision": "30f952010098c55ab5282a75ebc4868d",
     "url": "/SQL-Editor/index.html"
   },
   {
-    "revision": "a648cf5a5eb411c28f2d",
+    "revision": "79d4ff84e4f3b57599e2",
     "url": "/SQL-Editor/static/css/main.32f0775a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SQL-Editor/static/js/2.f9d82fd4.chunk.js"
   },
   {
-    "revision": "a648cf5a5eb411c28f2d",
-    "url": "/SQL-Editor/static/js/main.bc89d724.chunk.js"
+    "revision": "79d4ff84e4f3b57599e2",
+    "url": "/SQL-Editor/static/js/main.2f9ee354.chunk.js"
   },
   {
     "revision": "c322e0dbe3883c79ebb0",
