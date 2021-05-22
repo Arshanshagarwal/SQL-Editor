@@ -16,8 +16,8 @@ function Content1() {
               2. It takes an SQL command as input and gives the required output.
             </div>
             <div className="point third">
-              3. It can also download the input as well as output file if
-              required by the user.
+              3. It can also download the input as well as the output file if
+              required.
             </div>
             <div className="point fourth">
               4. Currently it works with only 2 commands.
@@ -25,7 +25,7 @@ function Content1() {
           </div>
         </div>
         <div className="right-help">
-          <div className="title">Commands that will work</div>
+          <div className="title">Working SQL commands</div>
           <div className="help-content">
             <div className="point first top">1. show tables;</div>
             <div className="point second">2. SELECT * from Shippers;</div>
