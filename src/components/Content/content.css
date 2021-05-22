@@ -36,6 +36,7 @@
 
 .right-output {
   height: 50vh;
+  white-space: pre-wrap;
   font-family: monospace;
   color: white;
   padding: 10px;
