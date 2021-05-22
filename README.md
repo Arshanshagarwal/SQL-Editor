@@ -22,7 +22,7 @@ To calculate the loading time of the page i used 2 methods.
 
 Chrome Dev Tools provide a lighthouse functionality, which provides with metric report of the web app. It is an inbuilt feature off the dev tools and can provide with a vast amount of data about the webapp.
 
-It provided me with the FCP (first contentful paint) and LCP (largest contentful page) loading times, which were `0.8 s` and `1 s` respectively.
+It provided me with the FCP (first contentful paint) and LCP (largest contentful page) loading times, which were `0.8 s` and `0.8 s` respectively. It also gave me the performance score of `97` and SEO score of `90` 
 
 ## 2. Pingdom Website - 
 
