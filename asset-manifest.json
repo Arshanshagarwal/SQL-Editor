@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SQL-Editor/static/css/main.de6da1ca.chunk.css",
-    "main.js": "/SQL-Editor/static/js/main.f0b8a4e6.chunk.js",
-    "main.js.map": "/SQL-Editor/static/js/main.f0b8a4e6.chunk.js.map",
+    "main.css": "/SQL-Editor/static/css/main.32f0775a.chunk.css",
+    "main.js": "/SQL-Editor/static/js/main.b0dd5849.chunk.js",
+    "main.js.map": "/SQL-Editor/static/js/main.b0dd5849.chunk.js.map",
     "runtime~main.js": "/SQL-Editor/static/js/runtime~main.2a72028c.js",
     "runtime~main.js.map": "/SQL-Editor/static/js/runtime~main.2a72028c.js.map",
     "static/js/2.f9d82fd4.chunk.js": "/SQL-Editor/static/js/2.f9d82fd4.chunk.js",
     "static/js/2.f9d82fd4.chunk.js.map": "/SQL-Editor/static/js/2.f9d82fd4.chunk.js.map",
     "index.html": "/SQL-Editor/index.html",
-    "precache-manifest.604b912de3e511f248bc50712420c46e.js": "/SQL-Editor/precache-manifest.604b912de3e511f248bc50712420c46e.js",
+    "precache-manifest.6bd7575112607d490ed81b463d903d2c.js": "/SQL-Editor/precache-manifest.6bd7575112607d490ed81b463d903d2c.js",
     "service-worker.js": "/SQL-Editor/service-worker.js",
-    "static/css/main.de6da1ca.chunk.css.map": "/SQL-Editor/static/css/main.de6da1ca.chunk.css.map",
+    "static/css/main.32f0775a.chunk.css.map": "/SQL-Editor/static/css/main.32f0775a.chunk.css.map",
     "static/media/content1.css": "/SQL-Editor/static/media/background.c8116fb7.svg"
   }
 }
